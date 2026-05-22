@@ -1,18 +1,16 @@
 {
-  "name": "betflix-mexico-bot",
+  "name": "betflix-mexico",
   "version": "1.0.0",
-  "description": "Panel de control para streaming Betflix Mexico",
+  "description": "Panel de administración Betflix",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
-  },
-  "engines": {
-    "node": "18.x"
   },
   "dependencies": {
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "sqlite3": "^5.1.6",
-    "node-telegram-bot-api": "^0.61.0"
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.6.5"
   }
 }
